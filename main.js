@@ -117,3 +117,28 @@ function AddToLocalStorage(todoitem){
     localStorage.setItem('todo',JSON.stringify(StorageItems));
 }
 
+// Adding Search function to Application
+// Event listener for search input
+let SearchInput = document.getElementById("SearchTasksInput");
+SearchInput.addEventListener('keyup',Search);
+
+// Define search function.
+function Search(){
+    let Filter = SearchInput.value.toUpperCase();
+    let items = TaskList.getElementsByTagName('li');
+    for (let i = 0;i < items.length; i++){
+        let val = items[i].textContent.toUpperCase();
+        val = val.replace("DELETE",'')
+        
+        if (val.indexOf(Filter) != -1){
+            items[i].style.display = "block"
+            
+        }
+        else{
+            items[i].style.display = "none"
+            
+        }
+
+    }
+    
+}
