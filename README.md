@@ -11,7 +11,7 @@ Current features
 This simple project was done to improve my knowledge on javascript. Previously , I have not used lots of javascript. As such i am currently trying to learn Javascript as it is the language of the browser.
 
 ## What I have learnt?
-I have learnt alot of things from this project.
+Here are some of the things that I have learnt from this project.
 - Event Handlers
 - More Javascript syntax
 - Manipulate DOM with Javascript
