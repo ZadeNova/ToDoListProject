@@ -26,4 +26,5 @@ Local Storage only stores strings.
 
 ## Credits
 <p>Referenced from https://github.com/aman-maharshi/vanilla-js</p>
-<p>Learnt from the above github repository.</p>
+Disclaimer:
+I did not 100% copy everything. ( please dont kill me )
