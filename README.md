@@ -25,5 +25,5 @@ Local Storage only stores strings.
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ## Credits
-Referenced from https://github.com/aman-maharshi/vanilla-js
-Learnt from the above github repository.
+<p>Referenced from https://github.com/aman-maharshi/vanilla-js</p>
+<p>Learnt from the above github repository.</p>
